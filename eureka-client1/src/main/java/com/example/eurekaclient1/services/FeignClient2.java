@@ -1,9 +1,9 @@
-package com.example.eurekaclient1;
+package com.example.eurekaclient1.services;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.cloud.openfeign.FeignClient;
 
-@FeignClient("CLIENT2")
+@FeignClient("client2")
 public interface FeignClient2 {
 
     @GetMapping("/api")

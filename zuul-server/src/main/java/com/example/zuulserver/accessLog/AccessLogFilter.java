@@ -1,4 +1,4 @@
-package com.example.zuulserver;
+package com.example.zuulserver.accessLog;
 
 import com.netflix.ribbon.proxy.annotation.Http;
 import com.netflix.zuul.ZuulFilter;
