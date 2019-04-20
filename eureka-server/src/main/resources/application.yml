@@ -1,7 +1,7 @@
 server:
   port: ${PORT:5000}
 security:
-  user:
+  user: donato
     password: ${eureka.password}
 
 eureka:
