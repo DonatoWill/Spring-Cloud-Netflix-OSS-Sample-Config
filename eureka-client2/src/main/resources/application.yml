@@ -3,7 +3,7 @@ client:
 serviceUrl:
 defaultZone: ${EUREKA_URL:http://user:password@localhost:5000}/eureka/
 security:
-user:
+user: donato
 password: ${eureka.password}
 
 ---
