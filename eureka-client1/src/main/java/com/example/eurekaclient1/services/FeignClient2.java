@@ -6,6 +6,6 @@ import org.springframework.cloud.openfeign.FeignClient;
 @FeignClient("client2")
 public interface FeignClient2 {
 
-    @GetMapping("/api")
+    @GetMapping("/cadastro/hi")
     String sayHyByClient2();
 }
